@@ -35,7 +35,7 @@ body {
 
 .circle {
     position: fixed;
-    background-color: red;
+    background-color: #780000;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -169,6 +169,21 @@ figcaption {
     margin-top: 10px;
 }
 
+:root {
+    --shadow: #003049;
+    --scrollbarBG: #eee;
+    --thumbBG: #669bbc;
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px black;
+  }
 
 #back2top {
     display: none; 
@@ -178,13 +193,13 @@ figcaption {
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: red; 
+    background-color: #780000; 
     color: white; 
     cursor: pointer; 
     padding: 15px; 
     border-radius: 50%;
     font-size: 18px; 
-    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    box-shadow: rgba(81, 81, 81, 0.35) 0px 5px 15px;
   }
   
   #myBtn:hover {
