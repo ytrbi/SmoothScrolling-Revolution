@@ -26,27 +26,13 @@ $ cd rotating-navigation
 
 To run the project locally, open the `index.html` file in your web browser.
 
-## Deployment
-
-To deploy this project on a live system, ensure the following branches are managed accordingly:
-
-### Server
-
-- Live: [link to live server]
-- Release: [link to release notes]
-- Development: [link to development branch]
-
 ### Branches
 
 - Master: Stable production code.
 - Feature: Feature development branches.
 - Bugfix: Bug fixes and patches.
 
-## Additional Documentation and Acknowledgments
 
-- Project folder on server: [link]
-- Confluence link: [link]
-- Asana board: [link]
 
 ---
 
