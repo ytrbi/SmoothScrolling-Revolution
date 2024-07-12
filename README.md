@@ -1,3 +1,4 @@
+![watchers](https://img.shields.io/github/watchers/ytrbi/SmoothScrolling-Revolution.svg)
 # Rotating Navigation
 
 This repository consists of a project that creates a rotating navigation menu with HTML, CSS, and Jquery. The objective of the undertaking is to design an interactive user interface that allows for seamless navigation through content.
@@ -31,8 +32,6 @@ To run the project locally, open the `index.html` file in your web browser.
 - Master: Stable production code.
 - Feature: Feature development branches.
 - Bugfix: Bug fixes and patches.
-
-
 
 ---
 
